@@ -1,6 +1,6 @@
 .projects {
   padding: 5rem 2rem;
-  background: white;
+  background: var(--bg-primary);
 }
 
 .projects-container {
@@ -15,21 +15,22 @@
 }
 
 .project-card {
-  background: white;
+  background: var(--bg-card);
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px var(--shadow-light);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px var(--shadow-medium);
 }
 
 .project-image {
   height: 200px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--gradient-project);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,11 +49,11 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .project-description {
-  color: #666;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -65,12 +66,21 @@
 }
 
 .tech-tag {
-  background: #e9ecef;
-  color: #495057;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  .tech-tag {
+    background: rgba(255, 107, 107, 0.2);
+    color: var(--accent-coral);
+    border: 1px solid rgba(255, 107, 107, 0.3);
+  }
 }
 
 .project-links {
@@ -90,22 +100,22 @@
 }
 
 .demo-link {
-  background: #007bff;
+  background: var(--accent-coral);
   color: white;
 }
 
 .demo-link:hover {
-  background: #0056b3;
+  background: #ff5252;
   transform: translateY(-2px);
 }
 
 .github-link {
-  background: #6c757d;
+  background: var(--accent-teal);
   color: white;
 }
 
 .github-link:hover {
-  background: #545b62;
+  background: #45b7aa;
   transform: translateY(-2px);
 }
 

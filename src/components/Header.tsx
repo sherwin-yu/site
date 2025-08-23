@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-const Header: React.FC = () => {
+const Header = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -13,7 +13,7 @@ const Header: React.FC = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h2>Portfolio</h2>
+          <h2>Sherwin Yu</h2>
         </div>
         <nav className="nav">
           <ul className="nav-list">

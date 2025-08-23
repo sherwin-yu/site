@@ -11,7 +11,7 @@ interface Project {
   imageUrl?: string;
 }
 
-const Projects: React.FC = () => {
+const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,

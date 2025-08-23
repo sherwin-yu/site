@@ -1,15 +1,15 @@
 import React from 'react';
 import './Hero.css';
 
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Your Name</span>
+            Hi, I'm <span className="highlight">Sherwin Yu</span>
           </h1>
-          <h2 className="hero-subtitle">Full Stack Developer</h2>
+          <h2 className="hero-subtitle">Senior Software Engineer</h2>
           <p className="hero-description">
             I create modern, responsive web applications using cutting-edge technologies. 
             Passionate about clean code, user experience, and solving complex problems.

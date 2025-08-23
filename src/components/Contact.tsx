@@ -8,7 +8,7 @@ interface FormData {
   message: string;
 }
 
-const Contact: React.FC = () => {
+const Contact = () => {
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
@@ -75,20 +75,20 @@ const Contact: React.FC = () => {
                 <div className="contact-icon">📍</div>
                 <div className="contact-details">
                   <h4>Location</h4>
-                  <p>Your City, Country</p>
+                  <p>New York, NY</p>
                 </div>
               </div>
             </div>
             
             <div className="social-links">
-              <a href="https://github.com/yourusername" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/sherwin-yu" className="social-link" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/yourusername" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/sherwinhyu" className="social-link" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
-              <a href="https://twitter.com/yourusername" className="social-link" target="_blank" rel="noopener noreferrer">
-                Twitter
+              <a href="https://instagram.com/sherwin.yu" className="social-link" target="_blank" rel="noopener noreferrer">
+                Instagram
               </a>
             </div>
           </div>

@@ -1,6 +1,6 @@
 .contact {
   padding: 5rem 2rem;
-  background: white;
+  background: var(--bg-primary);
 }
 
 .contact-container {
@@ -19,7 +19,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .contact-items {
@@ -42,20 +42,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8f9fa;
+  background: var(--bg-tertiary);
+  color: var(--accent-primary);
   border-radius: 50%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .contact-icon {
+    background: rgba(255, 107, 107, 0.2);
+    color: var(--accent-coral);
+  }
 }
 
 .contact-details h4 {
   margin: 0 0 0.25rem 0;
   font-size: 1rem;
   font-weight: 600;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .contact-details p {
   margin: 0;
-  color: #666;
+  color: var(--text-secondary);
 }
 
 .social-links {
@@ -66,7 +74,7 @@
 
 .social-link {
   padding: 0.5rem 1rem;
-  background: #007bff;
+  background: var(--accent-primary);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -75,13 +83,14 @@
 }
 
 .social-link:hover {
-  background: #0056b3;
+  background: #ff5252;
 }
 
 .contact-form {
-  background: #f8f9fa;
+  background: var(--bg-card);
   padding: 2rem;
   border-radius: 10px;
+  border: 1px solid var(--border-color);
 }
 
 .form-group {
@@ -92,24 +101,26 @@
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .form-group input,
 .form-group textarea {
   width: 100%;
   padding: 0.75rem;
-  border: 2px solid #e9ecef;
+  border: 2px solid var(--border-color);
   border-radius: 5px;
   font-size: 1rem;
   transition: border-color 0.3s ease;
   font-family: inherit;
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: var(--accent-primary);
 }
 
 .form-group textarea {
@@ -118,7 +129,7 @@
 }
 
 .submit-btn {
-  background: #007bff;
+  background: var(--accent-primary);
   color: white;
   border: none;
   padding: 0.75rem 2rem;
@@ -131,7 +142,7 @@
 }
 
 .submit-btn:hover:not(:disabled) {
-  background: #0056b3;
+  background: #ff5252;
   transform: translateY(-2px);
 }
 
@@ -143,10 +154,11 @@
 .submit-message {
   margin-top: 1rem;
   padding: 1rem;
-  background: #d4edda;
-  color: #155724;
+  background: rgba(78, 205, 196, 0.2);
+  color: var(--accent-teal);
   border-radius: 5px;
   text-align: center;
+  border: 1px solid rgba(78, 205, 196, 0.3);
 }
 
 @media (max-width: 768px) {

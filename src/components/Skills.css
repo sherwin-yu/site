@@ -1,6 +1,6 @@
 .skills {
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--gradient-skills);
   position: relative;
   overflow: hidden;
 }
@@ -48,7 +48,7 @@
   text-align: center;
   transition: all 0.4s ease;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px var(--shadow-light);
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 0.6s ease forwards;

@@ -10,7 +10,7 @@ interface ExperienceItem {
   technologies: string[];
 }
 
-const Experience: React.FC = () => {
+const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
       id: 1,

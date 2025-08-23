@@ -7,7 +7,7 @@ interface Skill {
   category: string;
 }
 
-const Skills: React.FC = () => {
+const Skills = () => {
   const skills: Skill[] = [
     { name: 'JavaScript', icon: '🟨', category: 'Frontend' },
     { name: 'TypeScript', icon: '🔷', category: 'Frontend' },
@@ -15,7 +15,7 @@ const Skills: React.FC = () => {
     { name: 'HTML/CSS', icon: '🎨', category: 'Frontend' },
     { name: 'Node.js', icon: '🟢', category: 'Backend' },
     { name: 'Express', icon: '🚀', category: 'Backend' },
-    { name: 'Python', icon: '🐍', category: 'Backend' },
+    { name: 'Go', icon: '🐹', category: 'Backend' },
     { name: 'MongoDB', icon: '🍃', category: 'Database' },
     { name: 'PostgreSQL', icon: '🐘', category: 'Database' },
     { name: 'MySQL', icon: '🗄️', category: 'Database' },

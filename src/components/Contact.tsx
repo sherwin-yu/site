@@ -54,23 +54,7 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <h3>Contact Information</h3>
-            <div className="contact-items">
-              <div className="contact-item">
-                <div className="contact-icon">📧</div>
-                <div className="contact-details">
-                  <h4>Email</h4>
-                  <p>your.email@example.com</p>
-                </div>
-              </div>
-              
-              <div className="contact-item">
-                <div className="contact-icon">📱</div>
-                <div className="contact-details">
-                  <h4>Phone</h4>
-                  <p>+1 (555) 123-4567</p>
-                </div>
-              </div>
-              
+            <div className="contact-items">     
               <div className="contact-item">
                 <div className="contact-icon">📍</div>
                 <div className="contact-details">

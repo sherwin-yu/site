@@ -21,7 +21,6 @@ const Skills = () => {
     { name: 'MySQL', icon: '🗄️', category: 'Database' },
     { name: 'Git', icon: '📦', category: 'Tools' },
     { name: 'Docker', icon: '🐳', category: 'Tools' },
-    { name: 'AWS', icon: '☁️', category: 'Tools' },
   ];
 
   return (

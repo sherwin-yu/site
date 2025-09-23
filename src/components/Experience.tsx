@@ -14,9 +14,9 @@ const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
       id: 1,
-      title: 'Senior Frontend Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2022 - Present',
+      title: 'Senior Software Engineer',
+      company: 'IBM',
+      period: 'Nov 2022 - Present',
       description: [
         'Led a team of 5 developers in building modern web applications using React and TypeScript',
         'Improved application performance by 40% through code optimization and best practices',
@@ -27,9 +27,9 @@ const Experience = () => {
     },
     {
       id: 2,
-      title: 'Full Stack Developer',
-      company: 'Digital Agency Pro',
-      period: '2020 - 2022',
+      title: 'Associate Software Engineer',
+      company: 'IBM',
+      period: 'July 2018 - Nov 2022',
       description: [
         'Developed and maintained multiple client websites and web applications',
         'Built RESTful APIs using Node.js and Express.js',
@@ -40,16 +40,16 @@ const Experience = () => {
     },
     {
       id: 3,
-      title: 'Frontend Developer',
-      company: 'StartupXYZ',
-      period: '2019 - 2020',
+      title: 'Junior Software Engineer',
+      company: 'IBM',
+      period: 'Dec 2015 - July 2018',
       description: [
         'Developed responsive web applications from scratch',
         'Implemented modern JavaScript features and ES6+ syntax',
         'Worked closely with UX/UI designers to create intuitive user interfaces',
         'Participated in agile development processes and sprint planning'
       ],
-      technologies: ['JavaScript', 'React', 'CSS3', 'Git']
+      technologies: ['JavaScript', 'Angular', 'HTML', 'Git']
     }
   ];
 

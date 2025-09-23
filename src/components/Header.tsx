@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    setIsMenuOpen(false); // Close menu after navigation
+  };
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
@@ -15,7 +22,18 @@ const Header = () => {
         <div className="logo">
           <h2>Sherwin Yu</h2>
         </div>
-        <nav className="nav">
+
+        <button
+          className={`hamburger ${isMenuOpen ? 'hamburger-active' : ''}`}
+          onClick={toggleMenu}
+          aria-label="Toggle navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <ul className="nav-list">
             <li><button onClick={() => scrollToSection('hero')} className="nav-link">Home</button></li>
             <li><button onClick={() => scrollToSection('skills')} className="nav-link">Skills</button></li>

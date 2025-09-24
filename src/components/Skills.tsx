@@ -18,9 +18,9 @@ const Skills = () => {
     { name: 'Go', icon: '🐹', category: 'Backend' },
     { name: 'MongoDB', icon: '🍃', category: 'Database' },
     { name: 'PostgreSQL', icon: '🐘', category: 'Database' },
-    { name: 'MySQL', icon: '🗄️', category: 'Database' },
-    { name: 'Git', icon: '📦', category: 'Tools' },
     { name: 'Docker', icon: '🐳', category: 'Tools' },
+    { name: 'Kubernetes', icon: '☸️', category: 'Tools' },
+    { name: 'Git', icon: '📦', category: 'Tools' },
   ];
 
   return (

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Skills.css';
 
 interface Skill {
@@ -50,3 +49,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

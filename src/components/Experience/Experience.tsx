@@ -1,4 +1,3 @@
-import React from 'react';
 import './Experience.css';
 
 interface ExperienceItem {
@@ -95,3 +94,4 @@ const Experience = () => {
 };
 
 export default Experience;
+

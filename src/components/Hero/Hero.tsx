@@ -1,4 +1,3 @@
-import React from 'react';
 import './Hero.css';
 
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
           </h1>
           <h2 className="hero-subtitle">Senior Software Engineer</h2>
           <p className="hero-description">
-            I architect and develop web applications while spearheading strategic initiatives to drive team alignment and business outcomes.
+            I architect and develop web applications while leading strategic initiatives to drive team alignment and business outcomes.
           </p>
           <div className="hero-buttons">
             <button 
@@ -39,3 +38,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

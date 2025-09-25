@@ -1,4 +1,3 @@
-import React from 'react';
 import './Projects.css';
 
 interface Project {
@@ -107,3 +106,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

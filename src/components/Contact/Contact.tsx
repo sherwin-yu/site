@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Contact.css';
 
 interface FormData {
@@ -149,3 +149,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

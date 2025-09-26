@@ -23,15 +23,6 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      technologies: ['React', 'TypeScript', 'Socket.io', 'Express'],
-      demoUrl: 'https://demo.example.com',
-      githubUrl: 'https://github.com/username/taskapp',
-      imageUrl: '📋'
-    },
-    {
-      id: 3,
       title: 'Weather Dashboard',
       description: 'A responsive weather application that displays current weather conditions, forecasts, and interactive maps.',
       technologies: ['React', 'API Integration', 'CSS3', 'Chart.js'],
@@ -40,11 +31,11 @@ const Projects = () => {
       imageUrl: '🌤️'
     },
     {
-      id: 4,
+      id: 3,
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with React and TypeScript, featuring smooth animations and optimal performance.',
       technologies: ['React', 'TypeScript', 'CSS3', 'Responsive Design'],
-      githubUrl: 'https://github.com/username/portfolio',
+      githubUrl: 'https://github.com/sherwin-yu/site',
       imageUrl: '💼'
     }
   ];

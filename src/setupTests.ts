@@ -3,3 +3,7 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
+
+// Mock environment variables for tests
+process.env.EMAIL_USER = 'test@gmail.com';
+process.env.EMAIL_PASS = 'testpassword123';
